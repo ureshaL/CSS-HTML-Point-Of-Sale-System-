@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>POS System</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Custom Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+<div id="header_bar">
+    <img src="image/rsz_logo.png" alt="logo-image" height="100" style="float: left;">
+    <div id="title">Uresha POS System</div>
+    <div class="loggin_btn"><a href="#">SignUp</a> | <a href="#">Login</a></div>
+    <div id="title_logo">
+        <img src="image/2018-12-13-16-18-44-958.jpg" width="100%">
+    </div>
+    <ul class="title_bar">
+        <a href="index.html"><li><i class="fas fa-home"></i> Home</li></a>
+        <a href="customer.html"><li><i class="fas fa-users"></i> Customer</li></a>
+        <a href="order.html"><li><i class="fas fa-shopping-cart"></i> Order</li></a>
+        <a href="item.html"><li><i class="fas fa-cubes"></i> Item</li></a>
+    </ul>
+</div>
+
+
+<img  id="bg_image" class="secondary-bg" src="image/bg_sec.jpg">
+<div class="wrapper-sec">
+    <div class="title-main-area">
+        <h2><i class="fas fa-users"></i> | Customer</h2>
+    </div>
+    <br>
+    <div class="sub-content-area">
+        <div style="float: left">
+            <label class="form-label" for="txtSearch">Search Customer : <input id="txtSearch" type="text" placeholder="Input Name/NIC/TP here" class="form-element form-text" style="width: 250px"></label>
+            <select class="form-element form-select">
+                <option>TP</option>
+                <option>Name</option>
+                <option>NIC</option>
+            </select>
+            <button type="button" class="form-element form-btn btn-blue">Search</button>
+        </div>
+        <div style="float: right" id="rep">
+            <button type="button" class="form-element form-btn btn-green">Add Customer</button>
+            <button type="button" class="form-element form-btn btn-yellow">View All Customers</button>
+        </div>
+        <div style="clear: both"></div>
+        <br>
+        <table class="form-table" cellspacing="2" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>TP</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div style="text-align: center">
+            <button type="button" class="form-element form-btn btn-red">Delete</button>
+            <button type="button" class="form-element form-btn btn-yellow">Edit</button>
+            <button type="button" class="form-element form-btn btn-blue">Details</button>
+            <button type="button" class="form-element form-btn btn-green">Clear</button>
+        </div>
+    </div>
+</div>
+<div class="footer-text">Developed by Uresha Lakshani @ IJSE</div>
+
+</body>
+</html>

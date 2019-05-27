@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS System</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Custom Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+<div id="header_bar">
+    <img src="image/rsz_logo.png" alt="logo-image" height="100" style="float: left;">
+    <div id="title">Uresha POS System</div>
+    <div class="loggin_btn"><a href="#">SignUp</a> | <a href="#">Login</a></div>
+    <div id="title_logo">
+        <img src="image/2018-12-13-16-18-44-958.jpg" width="100%">
+    </div>
+    <ul class="title_bar">
+        <a href="index.html"><li><i class="fas fa-home"></i> Home</li></a>
+        <a href="customer.html"><li><i class="fas fa-users"></i> Customer</li></a>
+        <a href="order.html"><li><i class="fas fa-shopping-cart"></i> Order</li></a>
+        <a href="item.html"><li><i class="fas fa-cubes"></i> Item</li></a>
+    </ul>
+</div>
+
+
+<img  id="bg_image" class="secondary-bg" src="image/bg_sec.jpg">
+<div class="wrapper-sec">
+    <div class="title-main-area">
+        <h2><i class="fas fa-shopping-cart"></i> | Order</h2>
+    </div>
+    <br>
+    <div class="sub-content-area">
+        <div class="content_box" style="float:left">
+            <aside>Customer Details</aside>
+            <section>
+                <div class="form-group">
+                    <label class="form-label margined">Customer</label>
+                    <select class="form-element form-select">
+                        <option>Nipun</option>
+                        <option>Uresha</option>
+                        <option>Dilshan</option>
+                    </select>
+                    <button type="button" class="form-element form-btn btn-green">New Customer</button>
+                </div>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Address</label>
+                    <input type="text" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Tel</label>
+                    <input type="text" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Credit Limit</label>
+                    <input type="text" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+            </section>
+        </div>
+        <div class="content_box" style="float: right">
+            <aside>Item Select</aside>
+            <section>
+                <div class="form-group">
+                    <label class="form-label margined">Item</label>
+                    <select class="form-element form-select">
+                        <option>Raththi 400g pack</option>
+                        <option>Sugar 500g pack</option>
+                        <option>Coca-Cola 2L Bottle</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label margined">Price</label>
+                    <input type="text" class="form-element form-text" style="width: calc(30% - 20px)">
+                    <label class="form-label margined">Quantity</label>
+                    <input type="text" class="form-element form-text" style="width: calc(30% - 20px)">
+                </div>
+                <hr>
+                <h1 style="text-align: center; font-size:20px; font-weight: normal; margin: 0">Order Item</h1>
+                <hr>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Order Quantity</label>
+                    <input type="text" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Credit Limit</label>
+                    <input type="text" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+                <button type="button" class="form-element form-btn btn-red seperate" style="float: right; margin: 10px">Place Order</button>
+            </section>
+        </div>
+        <div class="content_box" style="float: left">
+            <aside>Invoice Details</aside>
+            <section>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Order Date</label>
+                    <input type="date" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+                <div class="form-group">
+                    <label class="form-label seperate margined">Order ID</label>
+                    <input type="text" class="form-element form-text" style="width: calc(100% - 20px)">
+                </div>
+            </section>
+        </div>
+    </div>
+    <table class="form-table" cellspacing="2" cellpadding="10">
+        <thead>
+        <tr>
+            <th>Item Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+    <div id="final_content">
+        <h3>Total : 00.0Rs/= </h3>
+        <div id="final_bar">
+            <label class="form-label margined">Cash</label>
+            <input type="text" class="form-element form-text final_margin">
+            <label class="form-label margined">Balance</label>
+            <input type="text" class="form-element form-text final_margin">
+            <label class="form-label margined">Discount</label>
+            <input type="text" class="form-element form-text final_margin">
+        </div>
+    </div>
+    <div id="footer_bar">
+        <button type="button" class="form-element form-btn btn-red">Clear</button>
+        <button type="button" class="form-element form-btn btn-blue">Renew Order</button>
+        <button type="button" class="form-element form-btn btn-green">Submit Order</button>
+    </div>
+</div>
+<div class="footer-text">Developed by Uresha Lakshani @ IJSE</div>
+
+</body>
+</html>
